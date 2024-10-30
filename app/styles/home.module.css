@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.navbar span {
+  font-family: "Lobster", sans-serif;
+  font-size: 1.5rem;
+  color: #0070f3;
+}
+
+.navbar .navlink {
+  margin-left: 15px;
+}
+
+.navbar .navlink:hover {
+  color: #0070f3;
+  border-bottom: 2px solid #005bb5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .intro, .skills {
+    margin: 30px 0;
+    text-align: left;
+  }
+  
+.intro h2, .skills h2  {
+  font-family: "Lobster", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+  .skillsList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skillsList li {
+    margin: 5px 0;
+  }
+  
+  .buttonContainer {
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
